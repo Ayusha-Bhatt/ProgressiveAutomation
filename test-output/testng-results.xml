@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case PASSED progressiveSearchTest]]>
+    </line>
+    <line>
+      <![CDATA[googleTEST 1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case PASSED googleSearchTest1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-02-18T02:42:48Z" name="Automation Test Suite" finished-at="2021-02-18T02:43:07Z" duration-ms="19177">
+    <groups>
+    </groups>
+    <test started-at="2021-02-18T02:42:48Z" name="Progressive Test" finished-at="2021-02-18T02:43:00Z" duration-ms="11923">
+      <class name="com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest@3e8c3cb]" started-at="2021-02-18T02:42:48Z" name="beforeClass" finished-at="2021-02-18T02:42:57Z" duration-ms="8613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest@3e8c3cb]" started-at="2021-02-18T02:42:57Z" name="beforeMethod" finished-at="2021-02-18T02:42:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="progressiveSearchTest()[pri:1, instance:com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest@3e8c3cb]" started-at="2021-02-18T02:42:57Z" name="progressiveSearchTest" finished-at="2021-02-18T02:43:00Z" duration-ms="3014" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case PASSED progressiveSearchTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- progressiveSearchTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest@3e8c3cb]" started-at="2021-02-18T02:43:00Z" name="getResult" finished-at="2021-02-18T02:43:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=progressiveSearchTest status=SUCCESS method=ProgressiveAutoInsuranceTest.progressiveSearchTest()[pri:1, instance:com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest@3e8c3cb] output=Test Case PASSED progressiveSearchTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest@3e8c3cb]" started-at="2021-02-18T02:43:00Z" name="afterClass" finished-at="2021-02-18T02:43:00Z" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest -->
+    </test> <!-- Progressive Test -->
+    <test started-at="2021-02-18T02:43:00Z" name="Google Test" finished-at="2021-02-18T02:43:07Z" duration-ms="7224">
+      <class name="com.progressive.testcases.google.GoogleTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.progressive.testcases.google.GoogleTest@3f191845]" started-at="2021-02-18T02:43:00Z" name="beforeClass" finished-at="2021-02-18T02:43:04Z" duration-ms="3811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.progressive.testcases.google.GoogleTest@3f191845]" started-at="2021-02-18T02:43:04Z" name="beforeMethod" finished-at="2021-02-18T02:43:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="googleSearchTest1()[pri:1, instance:com.progressive.testcases.google.GoogleTest@3f191845]" started-at="2021-02-18T02:43:04Z" name="googleSearchTest1" description="Google Search Test case 1" finished-at="2021-02-18T02:43:07Z" duration-ms="3189" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[googleTEST 1]]>
+            </line>
+            <line>
+              <![CDATA[Test Case PASSED googleSearchTest1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.progressive.testcases.google.GoogleTest@3f191845]" started-at="2021-02-18T02:43:07Z" name="getResult" finished-at="2021-02-18T02:43:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googleSearchTest1 status=SUCCESS method=GoogleTest.googleSearchTest1()[pri:1, instance:com.progressive.testcases.google.GoogleTest@3f191845] output=googleTEST 1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.progressive.testcases.google.GoogleTest@3f191845]" started-at="2021-02-18T02:43:07Z" name="afterClass" finished-at="2021-02-18T02:43:07Z" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.progressive.testcases.google.GoogleTest -->
+    </test> <!-- Google Test -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>

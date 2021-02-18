@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.progressive.utils.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Google Test(failed)">
+    <classes>
+      <class name="com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="progressiveDetailsTest"/>
+          <include name="beforeMethod"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.progressive.testcases.progressive.ProgressiveAutoInsuranceTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+</suite> <!-- Failed suite [Google Test Suite] -->
